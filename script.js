@@ -44,7 +44,8 @@ console.log(a1 * a2);
 
 // !Program NO 8
 let userPassword = prompt("Enter your password");
-if (userPassword == "Password") {
+let confirmPassword = prompt("Enter your password");
+if (userPassword == confirmPassword) {
   console.log("Access granted");
 } else {
   console.log("Access denied");
